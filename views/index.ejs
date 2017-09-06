@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include template/head.ejs %>
+  </head>
+  <body>
+  <% include jsdefaults.ejs %>
+    <% include template/header.ejs%>
+    <span class="anchor" id="about">
+        <a class="smooth"></a>
+    </span>
+    <div class="section w3-display-container"  id="page1" >
+    	<img src="../images/first-page-img.jpg" alt="First page image" class="img-fluid" style="width: 100%;">
+    </div>
+    <span class="anchor" id="services">
+        <a  class="smooth"></a>
+    </span>
+    <div class="section" id="page2">
+    	<h1 class="servtitle">
+        Hairdressing
+        <em>Services</em>
+         </h1>
+        <!-- container -->
+        <div class="container" >
+  
+        <div id="img1s" class="service"  style="height: 43%; width: 24%;">
+            <div  class="coverimg">
+                <img src="../images/1.jpg" style="height: 100%; width: 100%"  >
+            </div>
+            <div class="desc" id="img1">
+                <div class="word_service">Blow dry&style</div>
+                <button class="info button-prime">More info</button>
+            </div>
+        </div>
+        <div id="img2s" class="service"  style="height: 43%; width: 24%" >
+             <div  class="coverimg"> 
+                <img src="../images/2.png" style="height: 100%; width: 100%">
+              </div>
+             
+            <div class="desc" id="img2">
+                <div class="word_service">Hair extensions</div>
+                <button class="info button-prime">More info</button>
+            </div>
+        </div>
+        <div id="img3s" class="service"  style="height: 43%; width: 24%" >
+            <div  class="coverimg">
+                <img src="../images/3.jpg" style="height: 100%; width: 100%" >
+            </div>
+
+            <div class="desc" id="img3">
+                <div class="word_service">Hair coloring</div>
+                <button class="info button-prime">More info</button>
+            </div>
+            
+        </div>
+        <div id="img4s" class="service"   style="height: 43%; width: 24%" >
+            <div class="coverimg">
+            <img src="../images/7.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="desc" id="img4">
+                <div class="word_service">Haircut</div>
+                <button class="info button-prime">More info</button>
+            </div>
+            
+        </div>
+        </div><!-- container -->
+    	
+    </div>
+    <span class="anchor" id="contact" >
+        <a  class="smooth"></a>
+    </span>
+    <div class="section" id="page3">
+    <div class=" w3-display-container">
+        
+            <div class="w3-display-container mySlides w3-animate-opacity" style="display: none;">
+              <img src="../images/img-1.jpg" alt="1-image" class="img-fluid" style="width: 100%;">
+            </div>
+        
+    
+            <div class="w3-display-container mySlides w3-animate-opacity" >
+              <img src="../images/img-2.jpg" alt="2-image" class="img-fluid" style="width: 100%;">
+            </div>
+            <button class="w3-button w3-display-left lbutton" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right lbutton" onclick="plusDivs(1)">&#10095;</button>
+            <div class="booking">
+                <h2 >Wanna have a great hairstyle 
+                <em>that everbody will look at?</em>
+                </h2>
+                <button class="button-prime" id="middle">Book an appointment</button>
+            </div>
+            
+            
+    </div>
+   </div>	
+    <span class="anchor" id="book" >
+        <a class="smooth"></a>
+    </span>
+    <div class="section" id="page4">
+    <div class="container">
+        <div class="containerp4">
+            <h3>
+            Contact Us
+            <em>Today!</em>
+            </h3>
+
+        <div class="containerf">
+          <form >
+                    <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+                    <input type="text" placeholder="Your Email Address" id="email"  required>
+                    <input type="text" placeholder="Your Phone Number " id="tel"  required>
+                    <textarea id="message" name="message" placeholder="Your message" style="height:200px" required></textarea>
+                   <div class="center-block">
+                        <input class="center-block" type="submit" value="Submit">
+                   </div>
+                   
+              </form>
+            </div>
+        </div>
+        
+
+    </div>
+        
+    </div>
+     <% include template/footer.ejs %>
+  </body>
+</html>

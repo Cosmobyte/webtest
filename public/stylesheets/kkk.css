@@ -1,0 +1,47 @@
+@media (min-width:700px){
+#photo_boat {
+margin-left: 80px ;
+width:550px ;
+height:350px ;
+}
+#photo_boat1 {
+width:550px ;
+height:350px ;
+margin-left:-80px ;
+}
+#div_photo_boat img{
+width:550px  ;
+height:350px ;
+object-fit:fill;
+}
+#div_photo_boat1 img{
+width:550px ;
+height:350px ;
+object-fit:fill;
+}
+}
+@media (min-width:1300px){
+#photo_boat {
+margin-left: -20px ;
+width:550px ;
+height:350px ;
+}
+#photo_boat1 {
+width:550px ;
+height:350px ;
+margin-left: 20px ;
+}
+#div_photo_boat img{
+width:550px  ;
+height:350px ;
+object-fit:fill;
+}
+#div_photo_boat1 img{
+width:550px ;
+height:350px ;
+object-fit:fill;
+}
+}
+.bade_name1 div.fl-module-content{
+background-color:#cee7ff;
+}
